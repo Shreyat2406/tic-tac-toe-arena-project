@@ -4,17 +4,18 @@ A simple, colorful browser game created for a final-year ROSPL practical. Play c
 
 ## Objectives
 
-- Build a working browser game with HTML, CSS, and JavaScript.
+- Build a working browser game using HTML, CSS, and JavaScript.
 - Practice Git and GitHub collaboration through branches, commits, pull requests, and merges.
-- Demonstrate readable, reusable, and open source project practices.
+- Demonstrate readable, reusable, and open-source project practices.
 
 ## Features
 
-- Two-player local mode and computer mode
-- Winner and draw detection
-- Turn indicator, score tracking, restart, and reset-score controls
-- Responsive dark interface with purple and blue accents
-- No frameworks, database, authentication, API, or build step required
+- Two-player local mode and computer mode.
+- Winner and draw detection.
+- Turn indicator and score tracking.
+- Restart and reset-score controls.
+- Responsive dark interface with purple and blue accents.
+- No frameworks, database, authentication, API, or build step required.
 
 ## How to Play
 
@@ -29,31 +30,48 @@ A simple, colorful browser game created for a final-year ROSPL practical. Play c
 
 ## Technologies
 
-HTML5 · CSS3 · JavaScript · Git · GitHub · VS Code
+- HTML5
+- CSS3
+- JavaScript
+- Git and GitHub
+- Visual Studio Code
 
-## Setup
+## Setup and Installation
 
 1. Clone or download the repository.
-2. Open `index.html` directly in any modern browser, or use VS Code Live Server.
-3. Select a mode and start playing.
+2. Open the project folder.
+3. Open `index.html` directly in any modern web browser.
+4. Alternatively, use the Live Server extension in Visual Studio Code.
+5. Select a game mode and start playing.
+
+No additional dependencies or build tools are required.
 
 ## Rules
 
-Players take turns placing X and O in the 3×3 grid. The first player to align three marks horizontally, vertically, or diagonally wins the round. If all nine cells are filled without a winning line, the round is a draw.
+- The game is played on a 3×3 grid.
+- Players take turns placing X and O in empty cells.
+- The first player to align three marks horizontally, vertically, or diagonally wins.
+- If all nine cells are filled without a winning line, the game ends in a draw.
 
 ## GitHub Collaboration Practice
 
-Create a repository, clone or fork it, then use feature branches such as `feature/computer-mode`. Make focused commits with messages like `Add winner detection`, push the branch, open and review a pull request, and merge it into `main`.
+This project demonstrates basic Git and GitHub workflows:
 
-To practice conflict resolution, edit the same heading in two branches, pull the changes, resolve the conflict, commit the resolution, and push.
+1. Fork or clone the repository.
+2. Create a feature branch for changes.
+3. Make small, focused commits with descriptive messages.
+4. Push changes to GitHub.
+5. Open a pull request for review.
+6. Review and merge approved changes into the main branch.
+7. Practice resolving merge conflicts when they occur.
 
 ## Future Improvements
 
 - Add difficulty levels for computer mode.
 - Improve accessibility with keyboard navigation.
 - Add sound effects for moves and winning rounds.
-- Enhance the game experience for mobile devices.
+- Enhance the mobile gaming experience.
 
 ## License
 
-Released under the MIT License. See `LICENSE`.
+This project is released under the MIT License. See the `LICENSE` file for details.
