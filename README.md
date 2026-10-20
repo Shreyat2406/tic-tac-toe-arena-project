@@ -26,7 +26,7 @@ A simple, colorful browser game created for a final-year ROSPL practical. Play c
 5. Players take turns placing X and O.
 6. Align three marks horizontally, vertically, or diagonally to win.
 7. If all nine cells are filled without a winner, the round ends in a draw.
-8. Use the Restart button to play another round or Reset Score to clear the scores.
+8. Use Restart to play another round or Reset Score to clear the scores.
 
 ## Technologies
 
@@ -40,9 +40,8 @@ A simple, colorful browser game created for a final-year ROSPL practical. Play c
 
 1. Clone or download the repository.
 2. Open the project folder.
-3. Open `index.html` directly in any modern web browser.
-4. Alternatively, use the Live Server extension in Visual Studio Code.
-5. Select a game mode and start playing.
+3. Open `index.html` in any modern browser, or use VS Code Live Server.
+4. Select a game mode and start playing.
 
 No additional dependencies or build tools are required.
 
@@ -55,15 +54,13 @@ No additional dependencies or build tools are required.
 
 ## GitHub Collaboration Practice
 
-This project demonstrates basic Git and GitHub workflows:
-
 1. Fork or clone the repository.
 2. Create a feature branch for changes.
 3. Make small, focused commits with descriptive messages.
 4. Push changes to GitHub.
 5. Open a pull request for review.
 6. Review and merge approved changes into the main branch.
-7. Practice resolving merge conflicts when they occur.
+7. Practice resolving merge conflicts when necessary.
 
 ## Future Improvements
 
@@ -74,4 +71,4 @@ This project demonstrates basic Git and GitHub workflows:
 
 ## License
 
-This project is released under the MIT License. See the `LICENSE` file for details.
+Released under the MIT License. See the `LICENSE` file for details.
